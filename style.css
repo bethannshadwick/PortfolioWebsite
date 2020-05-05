@@ -40,7 +40,7 @@ button {
 }
 
 .thumb-bar img {
-  position: center;
+  position: relative;
   display: block;
   width: 20%;
   float: left;
