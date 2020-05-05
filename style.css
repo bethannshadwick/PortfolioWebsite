@@ -1,5 +1,10 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: courier, monospace;
+  text-align: center;
+}
+
+h2 {
+  font-family: florence, cursive;
   text-align: center;
 }
 
