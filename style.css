@@ -15,6 +15,25 @@ body {
   height: 480px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+  background-color: rgba(197, 84, 24, 0.19);
+}
+button {
+  border: 0;
+  background: rgba(197, 84, 34, 0.83);
+  text-shadow: 0.5px 0.5px 0.5px white;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 1px;
+  left: 1px;
+}
+
 .thumb-bar img {
   display: block;
   width: 20%;
