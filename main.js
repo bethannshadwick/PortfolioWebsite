@@ -10,6 +10,7 @@ for(let i = 1; i <= 5; i++) {
   newImage.setAttribute('src', 'images/the avett brothers album cover.jpg' + i + '.jpg');
   newImage.setAtribute('src', 'images/rex orange county front album cover.jpg' + i + '.jpg');
   newImage.setAttribute('src', 'images/the lumineers album cover.jpg' + i + '.jpg');
+  thumbBar.appendChild(newImage);
   newImage.onclick = function(e) {
     displayedImage.src = e.target.src;
   }
