@@ -8,6 +8,36 @@ h2 {
   text-align: center;
 }
 
+li{
+  list-style-type: none;
+  margin: 0 2px;
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  padding: 2px;
+  font-family: gill sans, sans-serif;
+  display: block;
+}
+
+a:hover {
+  background-color: #C6E9FF;
+}
+
+nav{
+  width: 100px;
+  background-color: #FFFFFF;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   width: 640px;
   margin: 0 auto;
