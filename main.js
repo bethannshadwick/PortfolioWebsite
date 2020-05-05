@@ -6,8 +6,10 @@ var overlay = document.querySelector('.overlay');
 
 for(let i = 1; i <= 5; i++) {
   var newImage = document.createElement('img');
-  newImage.setAttribute('src', 'images/pic' + i + '.jpg');
-  newImage.setAttribute('src', 'images/pic' + ii + '.jpg');
+  newImage.setAttribute('src', 'images/blackbear album cover original.jpg' + i + '.jpg');
+  newImage.setAttribute('src', 'images/the avett brothers album cover.jpg' + i + '.jpg');
+  newImage.setAtribute('src', 'images/rex orange county front album cover.jpg' + i + '.jpg');
+  newImage.setAttribute('src', 'images/the lumineers album cover.jpg' + i + '.jpg');
   newImage.onclick = function(e) {
     displayedImage.src = e.target.src;
   }
@@ -19,5 +21,10 @@ btn.onclick = function() {
     btn.setAttribute('class', 'light');
     btn.textContent = 'Lighten';
     overlay.style.backgroundColor = 'rgba(197, 84, 34, 0.53)';
+  }
+  else {
+    btn.setAttribute('class','dark');
+    btn.textContent = 'Darken';
+    overlay.style.backgroundColor = 'rgba(197, 84, 34, 0.38)';
   }
 }
