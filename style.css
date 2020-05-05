@@ -44,4 +44,6 @@ button {
   width: 20%;
   float: left;
   cursor: pointer;
+  height: auto;
+  width: auto;
 }
