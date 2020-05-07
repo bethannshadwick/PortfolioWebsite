@@ -93,3 +93,10 @@ button {
   height: 159.4px;
   width: auto;
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
