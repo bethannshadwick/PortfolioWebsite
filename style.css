@@ -75,8 +75,10 @@ button {
   text-shadow: 0.5px 0.5px 0.5px white;
   border: 1px solid #999;
   position: relative;
-  top: 1px;
-  left: 1px;
+  top: 60%;
+  left: 20%;
+  right: 20%;
+  bottom: 5%;
 }
 
 .thumb-bar img {
