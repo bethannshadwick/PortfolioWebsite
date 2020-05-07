@@ -16,8 +16,9 @@ for(let i = 1; i <= 5; i++) {
   }
 }
 
-function swapImg() {
-  var doc=document.getElementById("swap");
+img_now=0;
+elm.addEventListener('click', function(event) {
+  event.target.src=images[img_now++];
 }
 
 btn.onclick = function() {
