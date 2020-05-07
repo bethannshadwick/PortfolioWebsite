@@ -13,6 +13,7 @@ for(let i = 1; i <= 5; i++) {
   thumbBar.appendChild(newImage);
   newImage.onclick = function(e) {
     displayedImage.src = e.target.src;
+    e.target.appendChild(img);
   }
 }
 
