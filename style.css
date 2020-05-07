@@ -29,6 +29,7 @@ a:hover {
 nav{
   width: 100px;
   background-color: #FFFFFF;
+  position: absolute;
 }
 
 ul{
