@@ -16,6 +16,10 @@ for(let i = 1; i <= 5; i++) {
   }
 }
 
+function swapImg() {
+  var doc=document.getElementById("swap");
+}
+
 btn.onclick = function() {
   var btnClass = btn.getAttribute('class');
   if(btnClass === 'dark') {
