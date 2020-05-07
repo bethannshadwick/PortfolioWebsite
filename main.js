@@ -11,8 +11,6 @@ for(let i = 1; i <= 5; i++) {
   newImage.setAtribute('src', 'images/rex orange county front album cover.jpg' + i + '.jpg');
   newImage.setAttribute('src', 'images/the lumineers album cover.jpg' + i + '.jpg');
   thumbBar.appendChild(newImage);
-  newImage.onclick = function(e) {
-    displayedImage.src = e.target.src;
   }
 }
 function showImage(blackbear album cover original.jpg) {
