@@ -16,11 +16,6 @@ for(let i = 1; i <= 5; i++) {
   }
 }
 
-img_now=0;
-elm.addEventListener('click', function(event) {
-  event.target.src=images[img_now++];
-}
-
 btn.onclick = function() {
   var btnClass = btn.getAttribute('class');
   if(btnClass === 'dark') {
