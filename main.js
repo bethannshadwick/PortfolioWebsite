@@ -13,11 +13,6 @@ for(let i = 1; i <= 5; i++) {
   thumbBar.appendChild(newImage);
   }
 }
-function showImage(blackbear album cover original.jpg) {
-  var curImage = document.getElementById('currentImg');
-  var thePath = 'images/';
-  var theSource = thePath + imgName;
-}
 
 btn.onclick = function() {
   var btnClass = btn.getAttribute('class');
