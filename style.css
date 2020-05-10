@@ -85,7 +85,7 @@ button {
 }
 
 .thumb-bar img {
-  position: relative;
+  position: fixed;
   display: block;
   width: 20%;
   float: left;
