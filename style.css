@@ -85,13 +85,10 @@ button {
 }
 
 .thumb-bar img {
-  position: relative;
-  display: inline-block;
+  display: block;
   width: 20%;
   float: left;
   cursor: pointer;
-  height: 155px;
-  width: auto;
 }
 
 .center {
